@@ -1,2 +1,2 @@
 # RabbitMQPOC
-A simple RabbitMQ Example, now with publisher and consumed on different processes
+A simple RabbitMQ Example, now with publisher and consumer on different processes
