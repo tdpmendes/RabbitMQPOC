@@ -1,18 +1,14 @@
 ﻿using MassTransit;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace RabbitMQPOC
+namespace RabbitMQPOC.Lib
 {
     public class POCConsumer : IConsumer<POCRabbitMessage>
     {
         public Task Consume(ConsumeContext<POCRabbitMessage> context)
         {
-            Console.Write(context.Message.Content);
+            Console.Write($"Received on {DateTime.Now} :" + context.Message.Content);
             return Task.CompletedTask;
         }
     }

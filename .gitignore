@@ -4,3 +4,10 @@
 
 /RabbitMQPOC/obj
 /RabbitMQPOC/bin/Debug/netcoreapp3.1
+/.vs/RabbitMQPOC/DesignTimeBuild
+/.vs/RabbitMQPOC
+/RabbitMQConsumerPOC/bin/Debug/netcoreapp3.1
+/RabbitMQConsumerPOC/obj
+/RabbitMQPOC.Lib/bin/Debug/netcoreapp3.1
+/RabbitMQPOC.Lib/obj/Debug/netcoreapp3.1
+/RabbitMQPOC.Lib/obj
